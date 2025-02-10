@@ -6,10 +6,10 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background: url('fb76b3ae0bdac86bb805f436b5f00a4d.gif') center/cover no-repeat;
+    background: url('https://media.giphy.com/media/7fhgOJDYLnywgCNK4u/giphy.gif') center/cover no-repeat; 
     font-family: 'Playfair Display', serif;
     flex-direction: column;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px); 
 }
 
 .container {
@@ -28,5 +28,4 @@ body {
     max-width: 500px;
     height: auto;
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(255, 182, 193, 0.5);
 }
