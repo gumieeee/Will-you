@@ -1,11 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap');
+
 body {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #f9e3e3;
-    font-family: 'Arial', sans-serif;
+    background: url('fb76b3ae0bdac86bb805f436b5f00a4d.gif') center/cover no-repeat;
+    font-family: 'Playfair Display', serif;
+    flex-direction: column;
+    backdrop-filter: blur(10px);
 }
 
 .container {
@@ -14,11 +18,15 @@ body {
 
 .header_text {
     font-size: 3em;
-    color: #d32f2f;
+    color: #FFB6C1;
+    font-weight: 600;
+    text-shadow: 2px 2px 15px rgba(255, 182, 193, 0.8);
 }
 
 .gif_container img {
-    width: 100%; 
-    max-width: 500px; 
-    height: auto; 
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(255, 182, 193, 0.5);
 }
